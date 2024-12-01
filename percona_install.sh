@@ -215,7 +215,7 @@ then
 	c
 	firewalld_setup
 	disable_selinux
-    mysql_setup
+ 	mysql_setup
 	backup_mysql_conf
 	configure_first_node
 	c
