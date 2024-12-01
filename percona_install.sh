@@ -9,7 +9,7 @@
 # mysql_secure_installation script, which is performed on the 
 # first node, will also need user input.
 
-set -e -u -o pipefail
+set -u -o pipefail
 
 PACKAGE_MANAGER='dnf'
 
